@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ResturantDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700" />
+
+    <TextView
+        android:id="@+id/txtLblname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tool"
+        android:text="Pasta Hub"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textvi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLblname"
+        android:layout_marginTop="10dp"
+        android:text="Burger,Street food"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textvie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textvi"
+        android:layout_marginTop="10dp"
+        android:text="Phase 3,Mohali"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tool"
+        android:layout_alignParentRight="true"
+        android:text="Dilvery" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLblname"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:text="15 photos" />
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textvie"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:theme="@style/RatingBar" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rating" />
+
+    <RelativeLayout
+        android:id="@+id/layoutCall"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/a22"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/txtLblname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Call on this number to place order"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtLblname1"
+            android:background="@drawable/localeats"
+            android:text="Call - 898989898" />
+
+        <Button
+            android:id="@+id/butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="52dp"
+            android:layout_toRightOf="@id/button"
+            android:background="@drawable/localeats"
+            android:drawableLeft="@drawable/whatsapp"
+            android:text="Order on whatsapp"
+            android:textColor="@color/white"
+
+            />
+    </RelativeLayout>
+</RelativeLayout>

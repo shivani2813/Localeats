@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddResturantActivity"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"/>
+
+    <ImageView
+        android:id="@+id/food"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:background="@color/browser_actions_bg_grey"
+        android:src="@drawable/plus" />
+
+    <EditText
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/purple_500"
+        android:hint="Enter Restruant Name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/purple_700"
+        android:hint="Enter Restruant Slogan name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/purple_700"
+        android:hint="Address"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+
+    <TextView
+        android:id="@+id/txtrating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/black"
+        android:text="Please choose rating" />
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtrating"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="14dp"
+        android:numStars="5"
+        android:theme="@style/RatingBar"/>
+
+    <TextView
+        android:id="@+id/txtPriceStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rating"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:text="Starting Price"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPriceStart"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/purple_700"
+        android:hint="Basic PRice"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Add " />
+
+
+
+
+</RelativeLayout>
+

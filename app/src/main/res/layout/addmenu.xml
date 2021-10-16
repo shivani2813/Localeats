@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_below="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/food"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/plus" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="Name"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName9"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rating"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="Discription"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName10"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="Quantity"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName12"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:theme="@style/RatingBar"/>
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName11"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Veg"
+            android:textColor="@color/black"
+            android:buttonTint="@color/black"
+            android:textSize="20dp" />
+
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Non Veg"
+            android:textColor="@color/black"
+            android:buttonTint="@color/black"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Submit"
+        android:layout_below="@+id/radio"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+</RelativeLayout>

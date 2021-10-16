@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8"
+    android:background="@color/white"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_below="@+id/toolbar5"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/bpm"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="11dp"
+        android:text="Cheese momos"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/purple_700"
+        android:hint="price"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="15dp"
+        android:theme="@style/RatingBar"
+        android:numStars="5"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Submit" />
+
+
+</RelativeLayout>

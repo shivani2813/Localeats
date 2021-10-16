@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "116030817121",
+    "project_id": "localeats2",
+    "storage_bucket": "localeats2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116030817121:android:1f86518732a3ee1dcb3b20",
+        "android_client_info": {
+          "package_name": "com.example.localeats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116030817121-pmgk0i67r09f92s0fgeabmht5of1584o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkY4NjOM-cL64A6NTyX_tyshzNTbO4_1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116030817121-pmgk0i67r09f92s0fgeabmht5of1584o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

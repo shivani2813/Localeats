@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotPasswordActivity"
+    android:background="@color/white"
+    >
+    <Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"/>
+
+    <ImageView
+        android:id="@+id/lfr"
+        android:layout_below="@+id/toolbar4"
+        android:layout_width="151dp"
+        android:layout_height="144dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/download"/>
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_below="@+id/lfr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Forget your Password"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Tell us your phone number,and we'll get oyu back on your account."
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="Enter your Email"
+        android:textSize="20dp"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Send"
+        android:textSize="15dp" />
+
+
+
+</RelativeLayout>

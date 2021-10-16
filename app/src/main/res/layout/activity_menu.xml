@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@color/white"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"/>
+
+    <TextView
+        android:id="@+id/textvi"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tandoori Pasta"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:layout_marginStart="220dp"
+        android:src="@drawable/image" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textvi"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:text="In Veg Pasta"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@+id/text2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="23dp"
+        android:numStars="5"
+        android:theme="@style/RatingBar" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/black"
+        android:text="Rs.150"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rating"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="13dp"
+        android:textColor="@color/black"
+        android:text="Tangy Flovourful red sauce pasta infused with heavenly herb,spices topped with onion."
+        android:textSize="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/drawable/jgh.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/drawable/localeats.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/drawable/menu.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_gallery.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_galleryactivity.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_home_page.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_main2.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_main3.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_main4.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_main5.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_main6.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_main7.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_main8.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_main9.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_menu.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_resource_file.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/activity_resturant_detail.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/addmenu.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/content_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/fragment_home.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/nav_header_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/samplelayout.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/layout/xyz.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/menu/localeatsmenu.xml" value="0.1398148148148148" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LocalEats/app/src/main/res/menu/main_activity3.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/hp/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_dropdown_item_1line.xml" value="0.19635416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

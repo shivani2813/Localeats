@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ivwe"
+        />
+
+    <ImageView
+        android:id="@+id/ivwe"
+        android:layout_width="174dp"
+        android:layout_height="132dp"
+        android:src="@drawable/download"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

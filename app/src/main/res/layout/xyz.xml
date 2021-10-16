@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        app:cardCornerRadius="5dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tan"
+            android:scaleType="fitXY"/>
+
+
+        <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:text="Resturant Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+           <TextView
+               android:id="@+id/txtsloganname"
+               android:layout_below="@+id/textView9"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@android:color/black"
+               android:text="Slogan Name"/>
+
+            <TextView
+                android:layout_below="@+id/txtsloganname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textColor="@android:color/black"
+                android:drawableLeft="@drawable/ic_baseline_star_rate_24"/>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
